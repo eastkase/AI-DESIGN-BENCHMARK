@@ -29,7 +29,7 @@ import {
 
 // Default models for quick selection
 const DEFAULT_MODELS = {
-  gemini: 'gemini-3-flash-preview',
+  gemini: 'gemini-3.1-flash-lite',
   openrouter: 'z-ai/glm-4.7'
 };
 
@@ -160,7 +160,7 @@ function App() {
               if (!apiKey) return;
               const ai = new GoogleGenAI({ apiKey });
               const response = await ai.models.generateContent({
-                  model: 'gemini-3-flash-preview',
+                  model: 'gemini-3.1-flash-lite',
                   contents: { 
                       role: 'user', 
                       parts: [{ 
