@@ -93,7 +93,7 @@ flash-ui/
 ## 🤖 Supported Models
 
 ### Google Gemini
-- **gemini-3-flash-preview**: Fast, creative UI generation
+- **gemini-3.1-flash-lite**: Fast, creative UI generation
 
 ### OpenRouter (Examples)
 - `z-ai/glm-4.7` - GLM-4.7 with reasoning
